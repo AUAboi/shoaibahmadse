@@ -178,8 +178,12 @@ nav ul li .nav-active {
 .bg-container {
   width: 100%;
   background-color: #0c141f;
-  height: 500px;
   background-size: cover;
+}
+
+.inner-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .bg-container .hero .inner-container .inner-content {
@@ -191,7 +195,7 @@ nav ul li .nav-active {
 .bg-container .hero .inner-container .inner-content .cta-container {
   margin: 2rem;
 }
-.bg-container .hero .inner-container .inner-content .cta-container button {
+.bg-container .inner-container .cta-container button {
   background: none;
   border-radius: 10px;
   border: none;
