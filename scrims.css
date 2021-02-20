@@ -186,14 +186,14 @@ nav ul li .nav-active {
   grid-template-columns: repeat(2, 1fr);
 }
 
-.bg-container .hero .inner-container .inner-content {
+.bg-container .hero .inner-container {
   text-align: center;
 }
-.bg-container .hero .inner-container .inner-content .main-heading {
+.bg-container .inner-container .main-heading {
   padding: 1em;
 }
-.bg-container .hero .inner-container .inner-content .cta-container {
-  margin: 2rem;
+.bg-container .inner-container .cta-container {
+  margin: auto;
 }
 .bg-container .inner-container .cta-container button {
   background: none;
@@ -204,7 +204,7 @@ nav ul li .nav-active {
 
   font-size: 1.2rem;
 }
-.bg-container .hero .inner-container .main-heading {
+.bg-container .inner-container .main-heading {
   color: #5500c0;
 }
 .sub-heading {
@@ -218,20 +218,10 @@ nav ul li .nav-active {
   color: #fff;
   padding-top: 2rem;
 }
-.bg-container
-  .hero
-  .inner-container
-  .inner-content
-  .cta-container
-  button:hover {
+.bg-container .inner-container .cta-container button:hover {
   cursor: pointer;
 }
-.bg-container
-  .hero
-  .inner-container
-  .inner-content
-  .cta-container
-  .btn-cta-primary {
+.bg-container .inner-container .cta-container .btn-cta-primary {
   background-color: #5500c0;
   margin-top: 5rem;
   transition: 250ms ease-in-out;
