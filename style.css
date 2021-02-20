@@ -1,2 +1,5 @@
-.img-container {
+@media screen and (max-width: 720px) {
+  nav ul {
+    display: none;
+  }
 }
