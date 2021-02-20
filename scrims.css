@@ -184,6 +184,7 @@ nav ul li .nav-active {
 .inner-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  padding: 2rem;
 }
 
 .bg-container .hero .inner-container {
@@ -212,7 +213,7 @@ nav ul li .nav-active {
 }
 .inner-content {
   color: #5500c0;
-  padding-top: 3rem;
+  margin: auto;
 }
 .inner-content-text {
   color: #fff;
@@ -226,51 +227,36 @@ nav ul li .nav-active {
   margin-top: 5rem;
   transition: 250ms ease-in-out;
 }
-.bg-container
-  .hero
-  .inner-container
-  .inner-content
-  .cta-container
-  .btn-cta-primary:hover {
+.bg-container .inner-container .cta-container .btn-cta-primary:hover {
   color: white;
-  background-color: #044242;
+  background-color: #3e018a;
 }
-.bg-container
-  .hero
-  .inner-container
-  .inner-content
-  .cta-container
-  .btn-cta-secondary:hover {
+.bg-container .inner-container .cta-container .btn-cta-secondary:hover {
   color: white;
 }
-.bg-container
-  .hero
-  .inner-container
-  .inner-content
-  .cta-container
-  .btn-cta-secondary {
+.bg-container .inner-container .cta-container .btn-cta-secondary {
   border: #5500c0 1px solid;
   padding: 0.7rem 1rem;
 }
-.bg-container .hero .inner-container .socials-container {
+.bg-container .inner-container .socials-container {
   text-align: center;
   margin: 1rem auto;
 }
-.bg-container .hero .inner-container .socials-container a {
+.bg-container .inner-container .socials-container a {
   color: #fff;
 }
-.bg-container .hero .inner-container .socials-container a i {
+.bg-container .inner-container .socials-container a i {
   font-size: 2rem;
   color: #5500c0;
   border-radius: 100px;
 }
-.bg-container .hero .inner-container .socials-container a i:hover {
+.bg-container .inner-container .socials-container a i:hover {
   color: #044242;
 }
-.bg-container .hero .inner-container .socials-container .socials {
+.bg-container .inner-container .socials-container .socials {
   padding: 1rem;
 }
-.bg-container .hero .inner-container .socials-container .socials li {
+.bg-container .inner-container .socials-container .socials li {
   display: inline;
   list-style: none;
   margin: 2rem 1rem;
@@ -284,7 +270,7 @@ nav ul li .nav-active {
 .section article h1 {
   font-family: "Orbitron", sans-serif;
   font-size: 4rem;
-  color: #31af46;
+  color: #4a02a1;
   text-align: center;
   margin-bottom: 1em;
 }
