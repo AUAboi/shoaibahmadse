@@ -2,4 +2,17 @@
   nav ul {
     display: none;
   }
+
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .img-container {
+    grid-row: 1;
+  }
+
+  .img-container {
+    margin: auto;
+    width: 90%;
+  }
 }

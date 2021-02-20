@@ -29,6 +29,31 @@ body {
 
   padding-bottom: none;
 }
+
+.hero {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: rgba(0, 0, 0, 0.651);
+}
+
+.inner-text {
+  color: #fff;
+  margin: auto;
+}
+
+.img-container {
+  width: 100%;
+}
+
+.img-main {
+  width: 90%;
+}
+
+.text-hero {
+  padding: 1rem;
+  line-height: 1.5;
+}
+
 .image-sidebar {
   padding-bottom: 20rem;
   position: absolute;
@@ -79,16 +104,13 @@ a {
   color: #5500c0;
   text-decoration: none;
 }
-.text {
-  width: 650px;
+.heading-hero {
   color: #4953cf;
   font-size: 24px;
-  overflow: hidden;
   text-align: center;
-  white-space: nowrap;
 
-  animation: typeAnim 4s steps(45) 1s,
-    blinkCursor 500ms steps(45) infinite normal;
+  /* animation: typeAnim 4s steps(45) 1s,
+    blinkCursor 500ms steps(45) infinite normal; */
 }
 @keyframes typeAnim {
   from {
@@ -158,11 +180,6 @@ nav ul li .nav-active {
   background-color: #0c141f;
   height: 500px;
   background-size: cover;
-}
-.welcome .haro {
-  background-color: rgba(0, 0, 0, 0.651);
-  height: 100%;
-  margin-top: none;
 }
 
 .bg-container .hero .inner-container .inner-content {

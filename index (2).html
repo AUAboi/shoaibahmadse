@@ -72,32 +72,31 @@
         </ul>
       </nav>
     </header>
-
-    <section class="welcome">
-      <div class="haro">
-        <div class="img-container">
-          <img class="img-main" src="undead esports.png" />
-        </div>
-        <div class="inner-text">
-          <h1 class="heading-hero">W E L C O M E</h1>
-
-          <p class="text-hero">
-            The oldest classical Greek and Latin writing had little or no space
-            between words and could be written in boustrophedon (alternating
-            directions). Over time, text direction (left to right) became
-            standardized, and word dividers and terminal punctuation became
-            common. The first way to divide sentences into groups was the
-            original parágraphos, similar to an underscore at the beginning of
-            the new group.[2] The Greek parágraphos evolved into the pilcrow
-            (¶), which in English manuscripts in the Middle Ages can be seen
-            inserted inline between sentences. The hedera leaf (e.g. ☙) has also
-            been used in the same way.
-          </p>
-        </div>
-      </div>
-    </section>
-
     <main>
+      <section class="hero-section">
+        <div class="hero">
+          <div class="inner-text">
+            <h2 id="heading-type" class="heading-hero"></h2>
+
+            <p class="text-hero">
+              The oldest classical Greek and Latin writing had little or no
+              space between words and could be written in boustrophedon
+              (alternating directions). Over time, text direction (left to
+              right) became standardized, and word dividers and terminal
+              punctuation became common. The first way to divide sentences into
+              groups was the original parágraphos, similar to an underscore at
+              the beginning of the new group.[2] The Greek parágraphos evolved
+              into the pilcrow (¶), which in English manuscripts in the Middle
+              Ages can be seen inserted inline between sentences. The hedera
+              leaf (e.g. ☙) has also been used in the same way.
+            </p>
+          </div>
+          <div class="img-container">
+            <img class="img-main" src="undead esports.png" />
+          </div>
+        </div>
+      </section>
+
       <div class="bg-container">
         <div class="haaaro">
           <div class="hero">
@@ -143,5 +142,20 @@
     <footer class="main-footer">
       Designed by Ahsan Faisal and Shoaib ahmad
     </footer>
+    <script>
+      var i = 0;
+      var txt = "W E L C O M E"; /* The text */
+      var speed = 50; /* The speed/duration of the effect in milliseconds */
+
+      function typeWriter() {
+        if (i < txt.length) {
+          document.getElementById("heading-type").innerHTML += txt.charAt(i);
+          i++;
+          setTimeout(typeWriter, speed);
+        }
+      }
+
+      typeWriter();
+    </script>
   </body>
 </html>
