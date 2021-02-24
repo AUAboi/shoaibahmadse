@@ -2,7 +2,7 @@
   nav ul {
     position: fixed;
 
-    background: #1f1f1f;
+    background: #000000b6;
     width: 100%;
     height: 100vh;
     margin: auto;
@@ -15,18 +15,15 @@
   .nav-active {
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
-    opacity: 0.8;
     -webkit-transform: translateX(0%);
     transform: translateX(0%);
-  }
-
-  .hidden {
-    display: none;
   }
 
   nav ul li {
     margin: auto;
     padding: 0;
+
+    font-size: 3rem;
   }
 
   .burger {
