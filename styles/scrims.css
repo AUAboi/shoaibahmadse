@@ -11,29 +11,20 @@ body {
 
   background: black;
 }
-.youtube {
-  margin-top: 2rem;
-}
-
-.welcome {
-  width: 100%;
-  height: 400px;
-  background-image: url("../Tournament/hero.jpg");
-  background-size: cover;
-  text-align: left;
-  font-size: large;
-  height: 30rem;
-  border-color: #cecece;
-  border-width: 50cm;
-  background-size: cover;
-
-  padding-bottom: none;
-}
 
 .hero {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  background-color: rgba(0, 0, 0, 0.651);
+  background-color: rgba(0, 0, 0, 0.767);
+  padding: 0.8rem;
+}
+
+.hero-section {
+  background-image: url("../assets/hero.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .inner-text {
@@ -52,42 +43,6 @@ body {
 .text-hero {
   padding: 1rem;
   line-height: 1.5;
-}
-
-.image-sidebar {
-  padding-bottom: 20rem;
-  position: absolute;
-  top: 0rem;
-  left: 50rem;
-  margin-right: 2px;
-  height: 60rem;
-  float: right;
-  width: 45%;
-  margin-top: 0%;
-  box-sizing: border-box;
-}
-.welcome h1 {
-  font-family: "Passion One", cursive;
-  font-weight: 75;
-  font-size: 50px;
-  /* margin-left: 10rem; */
-  color: #5500c0;
-  margin-bottom: 2rem;
-  text-align: center;
-  padding-top: 6rem;
-}
-.welcome-text {
-  margin-left: 20px;
-  width: 50%;
-  padding: 20px;
-  background-color: none;
-  color: white;
-  box-sizing: border-box;
-  float: left;
-  font-size: 15px;
-  font-family: "Courgette", cursive;
-  text-align: center;
-  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .logo-text-1 {
@@ -284,68 +239,7 @@ nav ul li .nav-active {
   list-style: none;
   margin: 2rem 1rem;
 }
-.section {
-  margin: 2em;
-}
-.section article {
-  margin: 1em 0;
-}
-.section article h1 {
-  font-family: "Orbitron", sans-serif;
-  font-size: 4rem;
-  color: #4a02a1;
-  text-align: center;
-  margin-bottom: 1em;
-}
-.section .article-instructions p {
-  padding: 1rem 0.5rem;
-  margin: 0.8rem;
-}
-.section .article-instructions ul {
-  padding: 1rem 0.5rem;
-  margin: 0.8rem;
-}
-.section .article-instructions ul li {
-  padding: 0.3rem;
-  list-style: none;
-}
-.form {
-  display: grid;
-  /*grid-template-columns: repeat(2, 1fr);*/
-}
-.form div {
-  padding: 0.6rem;
-  font-size: 1.2rem;
-}
-.form div label {
-  padding-bottom: 1em;
-  display: block;
-  color: #31af46;
-}
-.form div input {
-  padding: 10px;
-  font-size: 1.2rem;
-  width: 60%;
-}
-.form div input:focus {
-  outline: none;
-}
-.form div .form-submit {
-  background: none;
-  border: none;
-  color: #fff;
-  background-color: #31af46;
-  align-content: center;
-  padding: 1em;
-  margin-top: 5em;
-  font-size: 15px;
-  width: 100%;
-  margin-bottom: 5em;
-  border-radius: 5px;
-}
-.form div .form-submit:hover {
-  cursor: pointer;
-}
+
 .main-footer {
   background-color: orange;
   text-align: center;
