@@ -155,6 +155,9 @@ nav .logo {
   margin: auto 2rem;
   display: none;
   z-index: 100;
+  position: fixed;
+  right: 0;
+  top: 30px;
 }
 
 .line {
