@@ -151,6 +151,19 @@ nav .logo {
   margin: auto;
 }
 
+.burger {
+  margin: auto 2rem;
+  display: none;
+  z-index: 100;
+}
+
+.line {
+  width: 1.3rem;
+  height: 0.2rem;
+  background-color: #fff;
+  margin: 0.2rem;
+}
+
 nav ul {
   display: flex;
   margin: 1em;
@@ -219,12 +232,19 @@ nav ul li .nav-active {
   color: #fff;
   padding-top: 2rem;
 }
+
+.bg-container .inner-container .cta-container {
+  margin: auto;
+}
+
+.bg-container .inner-container .cta-container button {
+  margin: 1rem 0.7rem;
+}
 .bg-container .inner-container .cta-container button:hover {
   cursor: pointer;
 }
 .bg-container .inner-container .cta-container .btn-cta-primary {
   background-color: #5500c0;
-  margin-top: 5rem;
   transition: 250ms ease-in-out;
 }
 .bg-container .inner-container .cta-container .btn-cta-primary:hover {
