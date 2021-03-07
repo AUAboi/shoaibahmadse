@@ -122,6 +122,22 @@ nav .logo {
   margin: 0.2rem;
 }
 
+.line-active {
+  background: #3e018a;
+}
+
+.active .line1 {
+  transform: rotate(30deg);
+}
+
+.active .line2 {
+  opacity: 0;
+}
+
+.active .line3 {
+  transform: rotate(-30deg) translate(7px, -11px);
+}
+
 nav ul {
   display: flex;
   margin: 1em;
